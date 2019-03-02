@@ -1,0 +1,41 @@
+﻿<Window x:Class="Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calculator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="399" Stroke="Black" VerticalAlignment="Top" Width="255" Margin="242,10,0,0"/>
+        <Button x:Name="clear" Content="Clear" HorizontalAlignment="Left" Margin="259,151,0,0" VerticalAlignment="Top" Width="101" Height="46" Click="Clear_Click"/>
+        <Button x:Name="mPlus" Content="M+" HorizontalAlignment="Left" Margin="436,100,0,0" VerticalAlignment="Top" Width="43" Height="46" Click="MPlus_Click"/>
+        <Button x:Name="mMinus" Content="M-" HorizontalAlignment="Left" Margin="376,100,0,0" VerticalAlignment="Top" Width="43" Height="46" Click="MMinus_Click" />
+        <Button x:Name="mRecall" Content="MR" HorizontalAlignment="Left" Margin="317,100,0,0" VerticalAlignment="Top" Width="43" Height="46" Click="MRecall_Click" />
+        <Button x:Name="mClear" Content="MC" HorizontalAlignment="Left" Margin="259,100,0,0" VerticalAlignment="Top" Width="43" Height="46" Click="MClear_Click" />
+        <Button x:Name="division" Content="/" HorizontalAlignment="Left" Margin="376,151,0,0" VerticalAlignment="Top" Width="43" Height="46" Click="Division_Click"/>
+        <Button x:Name="multiplication" Content="X" HorizontalAlignment="Left" Margin="436,151,0,0" VerticalAlignment="Top" Width="43" Height="46" Click="Multiplication_Click"/>
+        <Button x:Name="seven" Content="7" HorizontalAlignment="Left" Margin="259,202,0,0" VerticalAlignment="Top" Width="43" Height="46" Click="Seven_Click"/>
+        <Button x:Name="eight" Content="8" HorizontalAlignment="Left" Margin="317,202,0,0" VerticalAlignment="Top" Width="43" Height="46" Click="Eight_Click"/>
+        <Button x:Name="nine" Content="9" HorizontalAlignment="Left" Margin="376,202,0,0" VerticalAlignment="Top" Width="43" Height="46" RenderTransformOrigin="0.651,0.478" Click="Nine_Click"/>
+        <Button x:Name="subtract" Content="-" HorizontalAlignment="Left" Margin="436,202,0,0" VerticalAlignment="Top" Width="43" Height="46" Click="Subtract_Click"/>
+        <Button x:Name="four" Content="4" HorizontalAlignment="Left" Margin="259,253,0,0" VerticalAlignment="Top" Width="43" Height="46" Click="Four_Click"/>
+        <Button x:Name="five" Content="5" HorizontalAlignment="Left" Margin="317,253,0,0" VerticalAlignment="Top" Width="43" Height="46" Click="Five_Click"/>
+        <Button x:Name="six" Content="6" HorizontalAlignment="Left" Margin="376,253,0,0" VerticalAlignment="Top" Width="43" Height="46" Click="Six_Click"/>
+        <Button x:Name="plus" Content="+" HorizontalAlignment="Left" Margin="436,253,0,0" VerticalAlignment="Top" Width="43" Height="46" Click="Plus_Click"/>
+        <Button x:Name="one" Content="1" HorizontalAlignment="Left" Margin="259,304,0,0" VerticalAlignment="Top" Width="43" Height="46" Click="One_Click"/>
+        <Button x:Name="two" Content="2" HorizontalAlignment="Left" Margin="317,304,0,0" VerticalAlignment="Top" Width="43" Height="46" Click="Two_Click"/>
+        <Button x:Name="three" Content="3" HorizontalAlignment="Left" Margin="376,304,0,0" VerticalAlignment="Top" Width="43" Height="46" Click="Three_Click"/>
+        <Button x:Name="equals" Content="=" HorizontalAlignment="Left" Margin="436,304,0,0" VerticalAlignment="Top" Width="43" Height="98" Click="Equals_Click"/>
+        <Button x:Name="zero" Content="0" HorizontalAlignment="Left" Margin="259,356,0,0" VerticalAlignment="Top" Width="101" Height="46" Click="Zero_Click"/>
+        <Button x:Name="point" Content="." HorizontalAlignment="Left" Margin="376,356,0,0" VerticalAlignment="Top" Width="43" Height="46" Click="Point_Click"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="259,24,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="59" Width="220" Foreground="Black" RenderTransformOrigin="1,0.5" Background="White"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Height="61" Margin="59,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="113" Background="#FFA8A8A8"/>
+        <TextBlock x:Name="textBlock1_Copy" HorizontalAlignment="Left" Height="61" Margin="540,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="113" Background="#FFA8A8A8"/>
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="59,24,0,0" TextWrapping="Wrap" Text="Current Value" VerticalAlignment="Top" Width="113"/>
+        <TextBlock x:Name="textBlock2_Copy" HorizontalAlignment="Left" Margin="540,24,0,0" TextWrapping="Wrap" Text="Saved Value" VerticalAlignment="Top" Width="113"/>
+
+
+
+    </Grid>
+</Window>
